@@ -12,6 +12,6 @@ int main ()
 	cin >> square;
 
 	area = (PI * pow(square, 2)) / 4;
-	cout << "the circle area inscribed in a square is " << area << endl; 
+	cout << "the circle area inscribed in a square is " << ceil(area) << endl; 
 
 }

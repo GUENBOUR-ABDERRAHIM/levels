@@ -12,7 +12,7 @@ int main ()
 	cin >> diameter;
 
 	area = (PI * pow(diameter, 2)) / 4;
-	cout << "the area of your circle is " << area << endl;
+	cout << "the area of your circle is " << ceil(area) << endl;
 
 
 }

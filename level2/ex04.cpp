@@ -11,6 +11,6 @@ int main ()
 	cin >> radius;
 
 	area = 	PI * pow(radius, 2);
-	cout << "the area of your circle is: " << area << endl;
+	cout << "the area of your circle is: " << ceil(area) << endl;
 
 }
