@@ -9,6 +9,7 @@ int main ()
 	string string3;
 
 	cout << "please enter string1 ";
+	cin.ignore(1, '\n');
 	getline(cin, string1);
 	cout << "please enter string2 ";
 	cin >> string2;
