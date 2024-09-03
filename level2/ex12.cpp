@@ -1,13 +1,14 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main ()
 {
-	unsigned short min;
-	unsigned short sec;
-	unsigned short hour;
-	unsigned short day;
-	int seconds;
+	float min;
+	float sec;
+	float hour;
+	float  day;
+	float seconds;
 
 	cout << "enter how much days: ";
 	cin >> day;
@@ -20,6 +21,7 @@ int main ()
 
 	 seconds = sec + (min * 60) + (hour * 60 * 60) + (day * 60 * 60 * 24);
 
-	cout << "the total of seconds is " << seconds << " second." << endl;
+	cout << "the total of seconds is " << round(seconds) << " second." << endl;
+
 
 }
