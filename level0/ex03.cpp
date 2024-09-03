@@ -12,7 +12,7 @@ int main ()
 	bool married;
 	
 	cout << "enter your name: ";
-	cin >> name;
+	getline(cin, name);
 	cout << "enter your age: ";
 	cin >> age;
 	cout << "enter your city: ";
