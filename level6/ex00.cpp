@@ -17,7 +17,7 @@ void print_the_numbers(int arr[1000], int length)
 {
 	for (int i = 0; i < length; i++)
 	{
-		cout << "the number " << i + 1 << " = " << arr[i] << endl;								}
+		cout << "the number " << i + 1 << " = " << arr[i] << endl;
 		cout << "*****************************\n";
 	}
 
